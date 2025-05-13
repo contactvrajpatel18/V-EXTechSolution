@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Text Properties Test</title>
+<style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      padding: 20px;
+
+    }
+ 
+    .font-properties {
+
+      font-family: "Georgia", serif;
+
+      font-size: 20px;
+
+      font-style: italic;
+
+      font-variant: small-caps;
+
+      font-weight: bold;
+
+    }
+ 
+    .alignment {
+
+      text-align: justify;
+
+      direction: rtl;
+
+      unicode-bidi: bidi-override;
+
+    }
+ 
+    .spacing {
+
+      line-height: 2;
+
+      letter-spacing: 2px;
+
+      word-spacing: 10px;
+
+      text-indent: 40px;
+
+      white-space: normal;
+
+    }
+ 
+    .decoration {
+
+      text-decoration-line: underline overline line-through;
+
+      text-decoration-style: wavy;
+
+      text-decoration-color: red;
+
+      text-shadow: 2px 2px 5px gray;
+
+    }
+ 
+    .transform {
+
+      text-transform: uppercase;
+
+    }
+ 
+    .overflow {
+
+      width: 200px;
+
+      white-space: nowrap;
+
+      overflow: hidden;
+
+      text-overflow: ellipsis;
+
+      border: 1px solid #ccc;
+
+      margin-bottom: 10px;
+
+    }
+ 
+    .wrapping {
+
+      word-break: break-word;
+
+      overflow-wrap: break-word;
+
+      hyphens: auto;
+
+    }
+ 
+    .vertical {
+
+      writing-mode: vertical-rl;
+
+      text-orientation: upright;
+
+    }
+ 
+    .tab {
+
+      tab-size: 4;
+
+      white-space: pre;
+
+    }
+</style>
+</head>
+<body>
+ 
+  <h2>Font Properties</h2>
+<p class="font-properties">This is a test of font family, size, style, variant, and weight.</p>
+ 
+  <h2>Alignment and Direction</h2>
+<p class="alignment">This is right-to-left and justified text for alignment and direction testing.</p>
+ 
+  <h2>Spacing and Indentation</h2>
+<p class="spacing">Spacing and indentation properties affect readability dramatically in long content.</p>
+ 
+  <h2>Text Decoration and Shadow</h2>
+<p class="decoration">Decorated text with multiple styles and shadow.</p>
+ 
+  <h2>Text Transform</h2>
+<p class="transform">this text should be uppercase.</p>
+ 
+  <h2>Text Overflow</h2>
+<div class="overflow">This sentence is too long and will overflow the container.</div>
+ 
+  <h2>Word Wrapping and Hyphenation</h2>
+<p class="wrapping">Antidisestablishmentarianism is a long word that should wrap or hyphenate properly.</p>
+ 
+  <h2>Vertical Text Orientation</h2>
+<div class="vertical">Vertical Text</div>
+ 
+  <h2>Tab Size</h2>
+<pre class="tab">1.	Item one
+
+2.	Item two</pre>
+ 
+</body>
+</html>
+
+ 

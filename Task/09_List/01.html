@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    body {
+        margin: 0px;
+    }
+    
+
+    .header {
+        padding: 20px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        border-bottom: 1px solid gray;
+
+        .main {
+            font-size: 20px;
+            color: black;
+            /* position: relative; */
+
+
+
+            .all {
+                display: none;
+            }
+
+
+            &:hover .all {
+                display: block;
+                position: absolute;
+                background-color: white;
+
+            }
+
+
+
+            li {
+                border: 1px solid black;
+                border-radius: 10px;
+                padding: 10px;
+                margin-top: 10px;
+                cursor: pointer;
+
+
+                &:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+
+
+
+        }
+
+    }
+</style>
+
+<body>
+
+
+    <div class="header">
+
+        <div class="main">
+            <li>Std 11</li>
+
+            <div class="all">
+                <li>Std 11 com</li>
+                <li>Std 11 sci</li>
+                <li>Std 11 art</li>
+            </div>
+        </div>
+
+        <div class="main">
+            <li>Std 12</li>
+
+            <div class="all">
+                <li>Std 12 Com</li>
+                <li>Std 12 Art</li>
+                <li>Std 12 Sci</li>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
