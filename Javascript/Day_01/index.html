@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div>
+        <h1 class="hh1">Welcome to My Page</h1>
+        <p id="pa">This is a simple HTML document.</p>
+        <button onclick="ab()">Click Me!</button>
+
+        <img id="img" src="https://v-extechsolution.in/static/media/logo.b48612c02e688a28a62f.png" alt="Placeholder Image">
+    </div>
+</body>
+<script>
+
+function ab(){
+    document.getElementById("pa").textContent = "You clicked the button!";
+    document.querySelector(".hh1").textContent = "Button Clicked!";
+   document.getElementById("pa").style.color = "blue";
+  document.getElementById("img").src = "https://v-extechsolution.in/static/media/slider5.7e5788f4bab88e9e22ad.png";
+}
+
+</script>
+</html>
